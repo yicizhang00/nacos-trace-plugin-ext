@@ -9,6 +9,14 @@ and persists them into a database for audit, analysis, or observability purposes
 - Store instance trace data (namespace, group, service name, IP, port, event type, timestamp, etc.) into a relational database.  
 - Provide structured trace logs for later query or visualization.
 
+**How to build:**
+```bash
+mvn clean
+```
+```bash
+mvn package
+```
+
 **Todo:** 
 - Compatible with both Nacos standalone and cluster modes.
 
